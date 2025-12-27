@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (width <= 768px) {
 
   .nav {
     display: none;
@@ -42,12 +42,10 @@
   }
 }
 
-@media (min-width: 769px) {
-  .burger {
-    display: none;
-  }
-
-  .mobile-menu {
-    display: none;
+@media (max-width: 768px) {
+  .theme-toggle {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
   }
 }
